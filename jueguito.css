@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: hidden;
+}
+body {
+  background: #ffc98c;
+}
+header {
+  background: #ffcccf;
+  padding: 10px 0;
+  width: 1500px;
+  box-shadow: 10px 8px 20px -6px rgba(0, 0, 0, 0.623);
+  border-bottom: 2px double #f7adb2;
+  border-top: 2px double #f7adb2;
+}
+
+#fecha-actual, #hora-actual {
+  margin: 10px 50px;
+  font-size: 15px;
+  display: flex;
+  align-items: left;
+}
+
+#cambia-color {
+  width: 170px;
+  height: 80px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1300px;
+  margin-top: -50px;
+}
+
+#night-mode {
+  width: 79px;
+  height: 74px;
+  cursor: pointer;
+}
+
+#light-mode {
+  width: 79px;
+  height: 74px;
+  cursor: pointer;
+}
+
+
+main {
+  margin: 0 200px;
+  background: #bdd8fa;
+  text-align: center;
+  height: 600px;
+  width: 1100px;
+  box-shadow: 10px 8px 20px -6px rgba(0,0,0,0.75);
+  border-bottom: 3px inset #97bce9;
+  border-left: 3px groove #97bce9;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+  padding-top: -20px;
+}
+
+main a {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+main a:hover {
+  background: #ffcccf;
+  padding: 5px 5px;
+  box-shadow: 5px 8px 10px -6px rgba(0,0,0,0.75);
+}
+
+.izquierda, .izquierda2 {
+  margin: 50px 100px;
+  height: 700px;
+  width: 40%;
+  float: left;
+}
+
+.derecha, .derecha2 {
+  margin-top: 50px;
+  margin-right: 20px;
+  width: 40%;
+  float: right;
+}
+
+.boton {
+    cursor: pointer;
+    box-shadow: 1px 2px 3px black;
+    border: 1px dotted gray;
+    border-radius: 70%;
+    margin: 10px 10px;
+    height: 50px;
+    background: linear-gradient(
+      53deg,
+      #ccfffc,
+      #ffcccf
+    );
+  }
+
+.boton:hover {
+    transform: scale(1.2);
+}
+
+#jueguito {
+  top: 0;
+  height: 680px;
+  width: 1100px;
+  overflow: hidden;
+}
+
+.juego {
+  height: 700px;
+  overflow: hidden;
+}
+

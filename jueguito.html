@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jueguito</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='jueguito.css'>
+</head>
+<body>
+    
+    <header>
+        <p id="fecha-actual"></p>
+        <p id="hora-actual"></p>
+        
+        <div id="cambia-color">
+            <img src="https://i.imgur.com/Sjc3xnD.png" alt="Light Mode" id="light-mode">
+            <img src="https://i.imgur.com/XsncQXz.png" alt="Night Mode" id="night-mode">
+        </div>
+
+    </header>
+
+    <main>
+    <a name="main"></a>
+    <div id="jueguito">
+    <div class="juego">
+    
+        <div class="izquierda">
+        <h1>¿Qué animal es el de la foto?</h1>
+        <h4 id="respuesta"></h4>
+        <span id="next-level"></span>
+        
+        <p>....</p>
+
+        <form>
+        <input type="radio" name="animales"> Gato <br>
+        <input type="radio" name="animales"> Elefante <br>
+        <input type="radio" name="animales"> Perro <br>
+
+
+        <input type="button" onclick="respuesta()" value="Elegir respuesta" class="boton">
+        </form>
+        </div>
+
+        <div class="derecha">
+            <img src="imagenes/negro.png" id="animal">
+        </div>
+
+    </div>
+
+
+    <a name="level2"></a>
+    <div id="jueguito">
+    <div class="juego">
+    
+        <div class="izquierda2">
+        <h1>¿Qué animal es el de la foto?</h1>
+        <h4 id="respuesta2"></h4>
+        <span id="next-level2"></span>
+
+        <p>....</p>
+
+        <form>
+        <input type="radio" name="animales2"> Cocodrilo <br>
+        <input type="radio" name="animales2"> Jirafa <br>
+        <input type="radio" name="animales2"> Hiena <br>
+
+
+        <input type="button" onclick="respuesta2()" value="Elegir respuesta" class="boton">
+        </form>
+        </div>
+
+        <div class="derecha2">
+            <img src="imagenes/negro2.png" id="animal2">
+        </div>    
+    
+    </div>
+
+    </div>
+    </main>
+
+
+
+
+    <script src='jueguito.js'></script>
+    
+</body>
+</html>
