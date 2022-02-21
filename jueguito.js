@@ -43,7 +43,9 @@ function nightMode() {
     document.querySelector("body").style.backgroundColor = "#000000";
     document.querySelector("main").style.backgroundColor = "#5e5e5e";
     document.querySelector("main").style.borderBottom = "3px inset #1f1f1f";
-    document.querySelector("main").style.borderLeft = "3px groove #1f1f1f";   
+    document.querySelector("main").style.borderLeft = "3px groove #1f1f1f";
+    document.getElementById("light-mode").src = "imagenes/sol2.png";
+    document.getElementById("night-mode").src = "imagenes/luna2.png";
 }
 
 
@@ -58,6 +60,8 @@ function lightMode() {
     document.querySelector("main").style.backgroundColor = "#bdd8fa";
     document.querySelector("main").style.borderBottom = "3px inset #97bce9";
     document.querySelector("main").style.borderLeft = "3px groove #97bce9"; 
+    document.getElementById("light-mode").src = "imagenes/sol1.png";
+    document.getElementById("night-mode").src = "imagenes/luna1.png";
 }
 
 
