@@ -57,8 +57,7 @@ function lightMode() {
     document.querySelector("body").style.backgroundColor = "#ffc98c";
     document.querySelector("main").style.backgroundColor = "#bdd8fa";
     document.querySelector("main").style.borderBottom = "3px inset #97bce9";
-    document.querySelector("main").style.borderLeft = "3px groove #97bce9";
-    document.querySelector("")   
+    document.querySelector("main").style.borderLeft = "3px groove #97bce9"; 
 }
 
 
@@ -82,6 +81,7 @@ function respuesta(){
         link.textContent = "Siguiente nivel"
         link.href = "#level2";
         document.getElementById("next-level").appendChild(link);
+        document.getElementById("boton1").disabled = true;
     } else {
         return false;
     }
@@ -108,6 +108,7 @@ function respuesta2(){
         link.textContent = "Siguiente nivel"
         link.href = "#level3";
         document.getElementById("next-level2").appendChild(link);
+        document.getElementById("boton2").disabled = true;
     } else {
         return false;
     }
