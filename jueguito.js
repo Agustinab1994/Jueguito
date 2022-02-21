@@ -36,7 +36,7 @@ if (horas < 12) {
 document.getElementById("night-mode").onclick = nightMode;
 
 function nightMode() {
-    document.querySelector("header").style.backgroundColor = "#1f1f1f";
+    document.querySelector("header").style.backgroundColor = "#333333";
     document.querySelector("header").style.borderTop = "2px double #000000";
     document.querySelector("header").style.borderBottom = "2px double #000000";
     document.querySelector("body").style.color = "#ffffff";
